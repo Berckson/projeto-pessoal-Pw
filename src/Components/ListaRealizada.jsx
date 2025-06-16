@@ -1,0 +1,18 @@
+import React from "react";
+
+function ListaRealizada({ comentarios }) {
+  return (
+    <div className="comentarios">
+      <h3>Comentários:</h3>
+      <ul>
+        {comentarios.map((comentario, index) => (
+          <li key={index}>
+            <strong>{comentario.nome}:</strong> {comentario.motivo}  <p>Data:{comentario.data}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default ListaRealizada;
