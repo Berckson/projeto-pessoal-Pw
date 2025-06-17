@@ -7,7 +7,7 @@ function ListaRealizada({ comentarios }) {
       <ul>
         {comentarios.map((comentario, index) => (
           <li key={index}>
-            <strong>{comentario.nome}:</strong> {comentario.motivo}  <p>Data:{comentario.data}</p>
+            <strong>{comentario.nome}:</strong> {comentario.motivo}  <p>Data:{comentario.data.split('-').reverse().join('-')}</p>
           </li>
         ))}
       </ul>
