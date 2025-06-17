@@ -10,14 +10,12 @@ export default function Avatares() {
 
         alt="João Henrique"
         className='imgs'
-        src="/src/assets/img/jao.jpeg"
         sx={{ width: 60, height: 60 }}
       />
 
       <Avatar
         alt="Berckson Thierry"
         className='imgs'
-        src="/src/assets/img/thierry.jpeg"
         sx={{ width: 60, height: 60 }}
       />
 
