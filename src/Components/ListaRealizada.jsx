@@ -3,7 +3,7 @@ import React from "react";
 function ListaRealizada({ comentarios }) {
   return (
     <div className="comentarios">
-      <h3>Comentários:</h3>
+      <h3>Frenquência:</h3>
       <ul>
         {comentarios.map((comentario, index) => (
           <li key={index}>
