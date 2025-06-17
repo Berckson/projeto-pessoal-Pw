@@ -13,7 +13,7 @@ function IncriçõesFeitas() {
 
   return (
     <div className="feed-container">
-      <h2>Feed de Comentários</h2>
+      <h2>Frequência do Laboratório</h2>
       <FormularioInscrição onEnviar={adicionarComentario} />
       <ListaRealizada comentarios={comentarios} />
     </div>
